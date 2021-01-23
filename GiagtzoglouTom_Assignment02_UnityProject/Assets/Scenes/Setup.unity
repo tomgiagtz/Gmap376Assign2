@@ -316,7 +316,7 @@ Animator:
   m_GameObject: {fileID: 894959902}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: 2dc25d79f6268f94294c57f64ffe9f5d, type: 3}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b282d3f321287824a87ad62c50306c5c, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -332,7 +332,7 @@ PlayableDirector:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 894959902}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_PlayableAsset: {fileID: 11400000, guid: dbefb828918612943b04d7517944b629, type: 2}
   m_InitialState: 1
@@ -344,6 +344,19 @@ PlayableDirector:
     value: {fileID: 894959903}
   m_ExposedReferences:
     m_References: []
+--- !u!114 &894959906
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 894959902}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfbe75270adc5954aa3c094108356efd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  forwardVelocity: 0
 --- !u!1 &1509442671
 GameObject:
   m_ObjectHideFlags: 0
